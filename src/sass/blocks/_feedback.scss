@@ -1,0 +1,33 @@
+.feedback {
+    background: url("../../img/bg_2.png") center (center/cover) no-repeat;
+    padding: 25px 0;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__info {
+        max-width: 517px;
+    }
+    &__subtitle {
+        font-size: 45px;
+        line-height: 1.2;
+        font-weight: 600;
+        color: #ffffff;
+        margin-bottom: 19px;
+    }
+    &__descr {
+        font-size: 15px;
+        line-height: 25px;
+        font-weight: 600;
+        color: #ffffff;
+        margin-bottom: 78px;
+    }
+    &__slider {
+        width: 763px;
+        overflow: hidden;
+    }
+    .slick-next {
+        background: url("../../icons/arrow_top.png") center (center/cover) no-repeat;
+        
+    }
+}
