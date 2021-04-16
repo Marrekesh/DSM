@@ -1,9 +1,11 @@
 .feedback {
     background: url("../../img/bg_2.png") center (center/cover) no-repeat;
-    padding: 25px 0;
+    padding: 87px 0;
     &__wrapper {
         display: flex;
+        position: relative;
         justify-content: space-between;
+        align-items: center;
     }
     &__info {
         max-width: 517px;
@@ -23,11 +25,70 @@
         margin-bottom: 78px;
     }
     &__slider {
-        width: 763px;
-        overflow: hidden;
+        position: relative;
+        max-width: 763px;
+        // height: 420px;
+        // overflow: hidden;
+    }
+    &__slide {
+        margin-bottom: 70px;
+        &:focus{
+            outline: none;
+        }
+        &-content {
+            display: flex;
+            align-items: center;
+            
+        }
+        &-img {
+            margin-right: 50px;
+        }
+        &-text {
+            padding: 23px 64px 30px 31px;
+            background-color: #ffffff;
+            box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.15);
+            border-radius: 5px;
+            max-width: 650px;
+        }
+        &-name {
+            font-size: 18px;
+            line-height: 25px;
+            font-weight: 700;
+            color: $main-color;
+            margin-bottom: 20px;
+        }
+        &-feed {
+            font-size: 15px;
+            line-height: 25px;
+            font-weight: 400;
+            font-style: italic;
+            color: #78909c;
+        }
+    }
+    .slick-prev,.slick-next {
+        position: absolute;
+        background: none;
+        border: none;
+        font-size: 45px;
+        line-height: 25px;
+        font-weight: 400;
+        color: #ffffff;
+        &:focus{
+            outline: none;
+        }
+    }
+    .slick-prev {
+        bottom: -56px;
+        left: 50%;
+        transform: translateX(50%);
+        z-index: 2;
     }
     .slick-next {
-        background: url("../../icons/arrow_top.png") center (center/cover) no-repeat;
-        
+        top: -56px;
+        left: 50%;
+        transform: translateX(50%);
+    }
+    .slick-list {
+        height: 420px !important;
     }
 }
