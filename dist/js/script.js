@@ -11,12 +11,6 @@ jQuery(document).ready(function($) {
     };
     toggleSlide('.services__up');
 
-    $('.feedback__slider').slick({
-        infinite: true,
-        slidesToShow: 2,
-        slidesToScroll: 1,
-        vertical: true,
-        verticalSwiping: true,
-    });
+    
 
 })
