@@ -1,0 +1,16 @@
+.block-description {
+    display: block;
+    margin: 0 auto;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 400;
+    color: #b0bec5;
+    max-width: 557px;
+    &_center {
+        margin: 0 auto;
+        text-align: center;
+    }
+    &_mb97px {
+        margin-bottom: 97px;
+    }
+}

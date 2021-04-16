@@ -1,0 +1,36 @@
+@import "libs/bootstrap-reboot.min";
+@import "libs/slick";
+// @import "libs/slick-theme";
+@import "variables/variables";
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;    
+}
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+}
+
+
+.container {
+    width: 100%;
+    max-width: 1456px;
+    margin: 0 auto;
+    padding: 0 10px
+}
+
+
+
+@import "blocks/promo";
+@import "blocks/header";
+@import "blocks/nav";
+@import "blocks/btn";
+@import "blocks/easy";
+@import "blocks/block-title";
+@import "blocks/block-description";
+@import "blocks/services";
+@import "blocks/feedback";
