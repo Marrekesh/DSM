@@ -40,8 +40,20 @@ jQuery(document).ready(function($) {
         slidesToScroll: 1
     });
     
-    $('.team__slider').on('click',function(){
-        $(this).slick('slickNext');
-        $(this).slick('slickPrew');
+    $('.team__slider').on('click',function(e){
+        e.preventDefault();
+
+        
+        $(this).slick('slickPrev');
       });
+
+    // $('.team__slider').on('mousewheel', function(e) {
+    //   e.preventDefault();
+    
+    //   if (e.deltaY > 0) {
+    //     $(this).slick('slickNext');
+    //   } else {
+    //     $(this).slick('slickPrev');
+    //   }
+    // });
 })
