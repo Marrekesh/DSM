@@ -1,0 +1,50 @@
+.form {
+    display: grid;
+    grid-template: 50px 50px 150px 50px / repeat(2, 280px);
+    justify-content: space-between;
+    row-gap: 20px;
+    &__input {
+        padding: 0 19px;
+        width: 100%;
+        height: 100%;
+        border: 1px solid $main-color;
+        border-radius: 5px;
+        font-size: 14px;
+        line-height: 30px;
+        font-weight: 500;
+        color: $main-color;
+    }
+    &__textarea {
+        grid-column: 1 / 3;
+        padding: 20px;
+        border: 1px solid $main-color;
+        border-radius: 5px;
+        width: 100%;
+        resize: none;
+    }
+    &__block {
+        display: flex;
+        align-items: center;
+        // grid-column: 1 / 2;
+        label {
+            font-family: Raleway;
+            font-size: 15px;
+            line-height: 1.2;
+            font-weight: 500;
+            color: $main-color;
+        }
+    }
+    &__checkbox {
+        margin-right: 10px;
+        font-size: 20px;
+        line-height: 1.2;
+        font-weight: 400;
+        color: $main-color;
+        cursor: pointer;
+    }
+    .btn_form {
+        justify-self: flex-end;
+    }
+
+
+}

@@ -1,0 +1,17 @@
+.social {
+    &__link {
+        margin-right: 31px;
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+    .fa {
+        font-size: 20px;
+        line-height: 25px;
+        font-weight: 400;
+        color: #90a4ae;
+        &:hover {
+            color: #fff;
+        } 
+    }
+}

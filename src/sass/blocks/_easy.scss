@@ -1,5 +1,5 @@
 .easy {
-    padding: 99px 0 100px 0;
+    padding: 99px 0 0 0;
     &__subtitle {
         font-size: 25px;
         line-height: 1.2;
@@ -19,6 +19,8 @@
         align-items: center;
         text-align: center;
         max-width: 346px;
+
+
         &-icon {
             margin-bottom: 40px;
         }

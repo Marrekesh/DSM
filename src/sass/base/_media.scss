@@ -1,0 +1,193 @@
+@media(max-width:1200px) {
+    .promo {
+        display: block;
+        min-height: 750px;
+        height: auto;
+        padding: 247px 0 187px 0;
+        // min-height: 750px;
+        &__video {
+            width: 500px;
+        }
+
+    }
+    .feedback {
+        &__subtitle {
+            font-size: 40px;
+        }
+        &__slider {
+            width: 600px;
+        }
+        &__slide-img {
+            margin-right: 24px;
+        }
+        .slick-list {
+            height: 500px !important;
+        }
+        .slick-prev {
+            bottom: -56px;
+        }
+    }
+}
+@media(max-width:1024px) {
+    .promo {
+        &__description {
+            font-size: 17px;
+        }
+    }
+    .feedback {
+        &__subtitle {
+            font-size: 40px;
+        }
+        &__slider {
+            width: 550px;
+        }
+        .slick-list {
+            height: 550px !important;
+        }
+    }
+}
+@media(max-width:992px) {
+    .logo {
+        width: 170px;
+    }
+    .nav {
+        &__link {
+            margin-left: 35px;
+        }
+    }
+    .promo {
+        padding: 200px 0 140px 0;
+        &__wrapper {
+            display: block;
+        }
+        &__information {
+            display: block;
+            margin: 0 auto;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        &__video {
+            margin: 0 auto;
+        }
+    }
+    .easy {
+        &__blocks {
+            display: block;
+        }
+        &__content {
+            flex-direction: column;
+            text-align: center;
+        }
+        &__round {
+            margin-right:0;
+            margin-bottom: 15px;
+        }
+    }
+    .services {
+        &__wrapper {
+            padding: 0 10px;
+        }
+    }
+    .feedback {
+        &__wrapper {
+            display: block;
+        }
+        &__info {
+            margin: 0 auto;
+            text-align: center;
+            margin-bottom: 70px;
+        }
+        &__slider {
+            width: 600px;
+            margin: 0 auto;
+        }
+        &__slide-text {
+            padding: 23px 31px 30px 31px;
+            width: 445px;
+        }
+        .slick-list {
+            height: 200px !important;
+        }
+        .slick-next, .slick-prev {
+            left: 43%;
+        }
+        .slick-prev {
+            bottom: -56px;
+        }
+    }
+}
+@media(max-width:768px) {
+    .header {
+        &__toggle {
+            position: fixed;
+            top: 0;
+            background-color: $main-color;
+            left: -100%;
+            width: 50%;
+            height: 100%;
+            z-index: 99999;
+            transition: 0.5s linear;
+            &_active {
+                left: 0;
+            }
+        }
+        &__close {
+            position: absolute;
+            top: 0;
+            color: #fff;
+            right: 5%;
+            font-size: 50px;
+            line-height: 1.1;
+        }
+        .nav {
+            position: relative;
+            padding-top: 100px;
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: 100%;
+            align-items: center;
+            // justify-content: center;
+            &__link {
+                display: block;
+                text-align: center;
+                width: 100%;
+                margin: 0;
+                font-size: 30px;
+                line-height: 3;
+                &:hover {
+                    color: #fff;
+                }
+            }
+        }
+        &__btn {
+            display: none;
+        }
+        &__burger {
+            display: block;
+            font-size: 35px;
+            position: absolute;
+            right: 5%;
+            top: 50%;
+        }
+    }
+    .easy {
+        &__wrapper {
+            flex-direction: column;
+            align-items: center;
+        }
+        &__item {
+            margin-bottom: 20px;
+        }
+    } 
+}
+@media(max-width:650px) {
+    .team {
+        &__carousel {
+            width: 500px;
+        }
+        &__slide-feed {
+            width: 500px;
+        }
+    }
+}

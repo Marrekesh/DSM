@@ -2,12 +2,15 @@
     &__link {
         display: inline-block;
         vertical-align: top;
-        margin-right: 49px;
+        margin-left: 49px;
         text-decoration: none;
         font-size: 15px;
         line-height: 25px;
         font-weight: 600;
-        color:#fff ;
+        color:#fff;
+        &:first-child {
+            margin-left:0;
+        }
         &:hover {
             color: #061e37;
         }

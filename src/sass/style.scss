@@ -7,9 +7,20 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: 'Raleway', sans-serif;    
+    box-sizing: border-box;   
 }
+
+.body {
+    font-family: 'Raleway', sans-serif;
+    overflow-x: hidden;
+    margin: 0;
+    &_overflow {
+        overflow: hidden;
+        position: fixed;
+    }
+
+}
+
 h1,h2,h3,h4,h5,h6 {
     margin: 0;
 }
@@ -19,13 +30,14 @@ h1,h2,h3,h4,h5,h6 {
     width: 100%;
     max-width: 1456px;
     margin: 0 auto;
-    padding: 0 10px
+    padding: 0 10px;
 }
 
 
 
 @import "blocks/promo";
 @import "blocks/header";
+@import "blocks/logo";
 @import "blocks/nav";
 @import "blocks/btn";
 @import "blocks/easy";
@@ -34,3 +46,8 @@ h1,h2,h3,h4,h5,h6 {
 @import "blocks/services";
 @import "blocks/feedback";
 @import "blocks/team";
+@import "blocks/contacts";
+@import "blocks/form";
+@import "blocks/social";
+@import "blocks/footer";
+@import "base/media";
