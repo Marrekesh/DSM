@@ -1,5 +1,6 @@
 .easy {
     padding: 99px 0 0 0;
+    text-align: center;
     &__subtitle {
         font-size: 25px;
         line-height: 1.2;
@@ -11,7 +12,8 @@
     &__wrapper {
         display: flex;
         justify-content: space-between;
-        margin-bottom: 78px;
+        margin-bottom: 63px;
+        flex-wrap: wrap;
     }
     &__item {
         display: flex;
@@ -19,6 +21,7 @@
         align-items: center;
         text-align: center;
         max-width: 346px;
+        margin-bottom: 15px;
 
 
         &-icon {

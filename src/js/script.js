@@ -31,6 +31,13 @@ jQuery(document).ready(function($) {
 
               }
             },
+            {
+              breakpoint: 650,
+              settings: {
+                arrows:false,
+
+              }
+            }
           ]
     });
     
@@ -45,7 +52,7 @@ jQuery(document).ready(function($) {
         infinite: true,
         responsive: [
             {
-              breakpoint: 650,
+              breakpoint: 651,
               settings: {
                 slidesToShow: 1,
                 slidesToScroll: 1,
