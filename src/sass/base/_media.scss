@@ -8,7 +8,14 @@
         &__video {
             width: 500px;
         }
-
+    }
+    .easy {
+        &__wrapper {
+            margin: 0 -70px 78px;
+        }
+        &__item {
+            padding: 0 70px;
+        }
     }
     .feedback {
         &__subtitle {
@@ -72,6 +79,14 @@
         }
     }
     .easy {
+        &__wrapper {
+            flex-direction: column;
+            align-items: center;
+        }
+        &__item {
+            padding: 0;
+            width: 50%;
+        }
         &__blocks {
             display: block;
         }
