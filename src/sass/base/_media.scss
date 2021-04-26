@@ -1,5 +1,8 @@
 @media(max-width:1200px) {
     .promo {
+        &__description {
+            font-size: 17px;
+        }
         display: block;
         min-height: 750px;
         height: auto;
@@ -38,7 +41,7 @@
 @media(max-width:1024px) {
     .promo {
         &__description {
-            font-size: 17px;
+            font-size: 15px;
         }
     }
     .feedback {
